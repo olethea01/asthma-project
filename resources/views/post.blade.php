@@ -3,14 +3,21 @@
     <title>Asthma Project</title>
 
     <body>
+
+       
         <article>
+         <h1>{{ $post->title }}</h1>
 
-        <?= $post; ?>        
+         <div>
+             {!! $post->body !!}
+         </div>
 
+          
+
+          
         </article>
+     <a href="/">Go back</a>
+     
 
-        <a href="/">Go back</a>
-
-        
     </body>
 
